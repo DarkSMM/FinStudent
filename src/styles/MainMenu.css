@@ -1,0 +1,155 @@
+/* 1. Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* 2. Set the default font family for all elements */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* 3. Navigation bar */
+  nav {
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .logo {
+    float: left;
+    margin-right: 10px; 
+    height: 35px;
+    width: auto;
+  }
+
+  .dots {
+    color: #2E3192;
+    font-size: 25px;
+  }
+ 
+  .about-button {
+    background-color: #f2f2f25c;
+    border: none;
+    border-radius: 10px;
+    color: #2E3192;
+    padding: 8px;
+    font-size: 15px;
+    /* font-weight: bold; */ 
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+  }
+
+
+/* Body */
+
+.body-container {
+  /* background-color: green; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.finstudent-logo {
+  /* background-color: blue; */
+  margin: 70px;
+}
+
+.mainMenuH1-title {
+  color: #2E3192;
+  font-size: 4em;
+}
+
+.mainMenuP-subheading {
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Sign-in Button */
+
+.signin-container {
+  text-align: center;
+  margin: 70px;
+}
+
+.sigin-description {
+  font-size: 21px;
+}
+
+.sign-in-button {
+  background-color: #2E3192;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;  
+  font-size: 20px;
+  padding: 7px 30px;
+  margin: 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Offers Containers */
+
+.offers-container {
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: 0px 0px 30px gray;
+  margin: 30px;
+  padding: 50px;
+
+}
+
+.offers-container-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.hiddenText {
+  visibility: hidden;
+}
+
+.offers-descriptions {
+  text-align: left;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.offers-paragraph-divider {
+  font-weight: bold;
+}
+
+.offers-paragraph-description {
+  margin-bottom: 2em;
+}
+
+
+  
